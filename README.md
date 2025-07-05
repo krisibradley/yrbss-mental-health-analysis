@@ -185,13 +185,10 @@ If you or someone you know needs help:
 ## 📧 Contact & Collaboration
 I'm open to collaboration, questions, and feedback!
 
-- **Email:** your.email@example.com
-- **LinkedIn:** [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
-- **Portfolio:** [Your Portfolio Website](https://yourportfolio.com)
-- **GitHub:** [Your GitHub](https://github.com/yourusername)
-
-## 📄 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- **Email:** kibradleyphd@gmail.com
+- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/kibradleyphd/)
+- **GitHub:** [Your GitHub](https://github.com/krisibradley)
+- **YouTube:** https://www.youtube.com/@kibradleyphd 
 
 ## 🙏 Acknowledgments
 - **CDC YRBSS Team** for providing this crucial public health data
