@@ -11,12 +11,6 @@
 ## 🎯 Project Overview
 This project analyzes the 2023 Youth Risk Behavior Surveillance System (YRBSS) data to identify predictors of persistent sadness and hopelessness among high school students. Using machine learning and statistical analysis, we developed models to enable early identification and targeted intervention for at-risk students.
 
-## Key Insights
-- Mental health issues are strongly interconnected, with current poor mental health being the strongest predictor of persistent sadness
-- Family environment plays a crucial role - both negative (verbal abuse) and positive (parental support) factors significantly impact mental health
-- Academic factors serve as important protective elements, including both performance (grades) and cognitive functioning (concentration)
-- School connectedness emerges as a significant protective factor, highlighting the importance of social support systems
-
 ## 📊 Dataset
 - **Source:** Centers for Disease Control and Prevention (CDC) - 2023 YRBSS
 - **Sample Size:** 20,103 high school students nationwide
@@ -30,6 +24,12 @@ This project analyzes the 2023 Youth Risk Behavior Surveillance System (YRBSS) d
 - **40.8%** of students report persistent sadness/hopelessness
 - **20.4%** seriously considered suicide
 - **9.5%** attempted suicide in the past 12 months
+
+  ## Key Insights
+- Mental health issues are strongly interconnected, with current poor mental health being the strongest predictor of persistent sadness
+- Family environment plays a crucial role - both negative (verbal abuse) and positive (parental support) factors significantly impact mental health
+- Academic factors serve as important protective elements, including both performance (grades) and cognitive functioning (concentration)
+- School connectedness emerges as a significant protective factor, highlighting the importance of social support systems
 
 ### Top Risk Factors (Predicting Sadness):
 1. **Current Mental Health Issues** (r = -0.519) - Very Strong predictor - Question Q84: "During the past 30 days, how often was your mental health not good? (Poor mental health includes stress, anxiety, and depression.)"
@@ -49,6 +49,20 @@ This project analyzes the 2023 Youth Risk Behavior Surveillance System (YRBSS) d
 - **Gender:** Significant differences in mental health outcomes (r = 0.251) with females experiencing more sadness
 - **Age/Grade:** Minimal variation across age groups
 - **Race/Ethnicity:** Small but measurable differences
+
+## 📊 Key Visualizations
+
+### Mental Health Crisis Scale
+![Mental Health Prevalence](mental_health_prevalence.png)
+
+### Top Predictors
+![Top Predictors](top_predictors_chart.png)
+
+### Risk vs Protective Factors
+![Risk vs Protective Factors](risk_protective_factors.png)
+
+### Demographics
+![Demographics](demographic_analysis.png)
 
 ## 🤖 Model Performance
 - **Best Algorithm:** Random Forest with SMOTE class balancing
@@ -149,20 +163,6 @@ Random Forest model reveals which variables are most predictive of persistent sa
 
 ### ROC Curves
 Model performance comparison across different algorithms.
-
-## 📊 Key Visualizations
-
-### Mental Health Crisis Scale
-![Mental Health Prevalence](mental_health_prevalence.png)
-
-### Top Predictors
-![Top Predictors](top_predictors_chart.png)
-
-### Risk vs Protective Factors
-![Risk vs Protective Factors](risk_protective_factors.png)
-
-### Demographics
-![Demographics](demographic_analysis.png)
 
 ## 🎓 Skills Demonstrated
 - **Machine Learning:** Classification, ensemble methods, model validation
