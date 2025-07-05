@@ -144,7 +144,19 @@ Random Forest model reveals which variables are most predictive of persistent sa
 ### ROC Curves
 Model performance comparison across different algorithms.
 
-*Note: Actual visualizations will be added to the results/ folder*
+## 📊 Key Visualizations
+
+### Mental Health Crisis Scale
+![Mental Health Prevalence](results/mental_health_prevalence.png)
+
+### Top Predictors
+![Top Predictors](results/top_predictors_chart.png)
+
+### Risk vs Protective Factors
+![Risk vs Protective Factors](results/risk_protective_factors.png)
+
+### Model Performance
+![Model Performance](results/model_performance.png)
 
 ## 🎓 Skills Demonstrated
 - **Machine Learning:** Classification, ensemble methods, model validation
