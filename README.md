@@ -147,7 +147,7 @@ Model performance comparison across different algorithms.
 ## 📊 Key Visualizations
 
 ### Mental Health Crisis Scale
-![Mental Health Prevalence](results/mental_health_prevalence.png)
+![Mental Health Prevalence](main/mental_health_prevalence.png)
 
 ### Top Predictors
 ![Top Predictors](results/top_predictors_chart.png)
