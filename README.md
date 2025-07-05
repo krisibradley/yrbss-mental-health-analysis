@@ -150,13 +150,13 @@ Model performance comparison across different algorithms.
 ![Mental Health Prevalence](mental_health_prevalence.png)
 
 ### Top Predictors
-![Top Predictors](results/top_predictors_chart.png)
+![Top Predictors](top_predictors_chart.png)
 
 ### Risk vs Protective Factors
-![Risk vs Protective Factors](results/risk_protective_factors.png)
+![Risk vs Protective Factors](risk_protective_factors.png)
 
-### Model Performance
-![Model Performance](results/model_performance.png)
+### Demographics
+![Demographics](demographic_analysis.png)
 
 ## 🎓 Skills Demonstrated
 - **Machine Learning:** Classification, ensemble methods, model validation
