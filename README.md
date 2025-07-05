@@ -11,6 +11,12 @@
 ## 🎯 Project Overview
 This project analyzes the 2023 Youth Risk Behavior Surveillance System (YRBSS) data to identify predictors of persistent sadness and hopelessness among high school students. Using machine learning and statistical analysis, we developed models to enable early identification and targeted intervention for at-risk students.
 
+## Key Insights
+- Mental health issues are strongly interconnected, with current poor mental health being the strongest predictor of persistent sadness
+- Family environment plays a crucial role - both negative (verbal abuse) and positive (parental support) factors significantly impact mental health
+- Academic factors serve as important protective elements, including both performance (grades) and cognitive functioning (concentration)
+- School connectedness emerges as a significant protective factor, highlighting the importance of social support systems
+
 ## 📊 Dataset
 - **Source:** Centers for Disease Control and Prevention (CDC) - 2023 YRBSS
 - **Sample Size:** 20,103 high school students nationwide
@@ -26,21 +32,21 @@ This project analyzes the 2023 Youth Risk Behavior Surveillance System (YRBSS) d
 - **9.5%** attempted suicide in the past 12 months
 
 ### Top Risk Factors (Predicting Sadness):
-1. **Current Mental Health Issues** (r = -0.519) - Very Strong predictor
-2. **Parental Verbal Abuse** (r = -0.412) - Strong predictor
-3. **Attempted Suicide** (r = -0.314) - Strong predictor
-4. **Suicide Consideration** (r = -0.278) - Moderate predictor
-5. **Substance Use** (r = -0.274) - Moderate predictor
+1. **Current Mental Health Issues** (r = -0.519) - Very Strong predictor - Question Q84: "During the past 30 days, how often was your mental health not good? (Poor mental health includes stress, anxiety, and depression.)"
+2. **Parental Verbal Abuse** (r = -0.412) - Strong predictor - Question Q89: "During your life, how often has a parent or other adult in your home insulted you or put you down?"
+4. **Attempted Suicide** (r = -0.314) - Strong predictor - Question Q29: "During the past 12 months, how many times did you actually attempt suicide?"
+5. **Suicide Consideration** (r = -0.278) - Moderate predictor - Question Q27: "During the past 12 months, did you ever seriously consider attempting suicide?"
+6. **Substance Use** (r = -0.274) - Moderate predictor - Multiple questions including Q46: "During your life, how many times have you used marijuana?" and Q42: "During the past 30 days, on how many days did you have at least one drink of alcohol?"
 
 ### Top Protective Factors (Predicting Resilience):
-1. **Concentration Ability** (r = 0.493) - Strong protective factor
-2. **Academic Engagement** (r = 0.491) - Strong protective factor
-3. **Suicide Prevention Awareness** (r = 0.431) - Strong protective factor
-4. **Parental Support** (r = 0.341) - Moderate protective factor
-5. **School Connectedness** (r = 0.278) - Moderate protective factor
+1. **Concentration Ability** (r = 0.493) - Strong protective factor - Question Q106: "Because of a physical, mental, or emotional problem, do you have serious difficulty concentrating, remembering, or making decisions?" (reverse coded)
+2. **Academic Engagement** (r = 0.491) - Strong protective factor - Question Q87: "During the past 12 months, how would you describe your grades in school?"
+3. **Suicide Prevention Awareness** (r = 0.431) - Strong protective factor - Derived from inverse relationship with suicide-related questions (Q27, Q28, Q29)
+4. **Parental Support** (r = 0.341) - Moderate protective factor - Question Q104: "How often do your parents or other adults in your family know where you are going or with whom you will be?" and Q99: "During your life, how often has there been an adult in your household who tried hard to make sure your basic needs were met, such as looking after your safety and making sure you had clean clothes and enough to eat?"
+5. **School Connectedness** (r = 0.278) - Moderate protective factor - Question Q103: "Do you agree or disagree that you feel close to people at your school?"
 
 ### Demographic Insights:
-- **Gender:** Significant differences in mental health outcomes (r = 0.251)
+- **Gender:** Significant differences in mental health outcomes (r = 0.251) with females experiencing more sadness
 - **Age/Grade:** Minimal variation across age groups
 - **Race/Ethnicity:** Small but measurable differences
 
