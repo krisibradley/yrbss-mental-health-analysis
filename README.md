@@ -206,7 +206,7 @@ I'm open to collaboration, questions, and feedback!
 - **Email:** kibradleyphd@gmail.com
 - **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/kibradleyphd/)
 - **GitHub:** [Your GitHub](https://github.com/krisibradley)
-- **YouTube:** https://www.youtube.com/@kibradleyphd 
+- **YouTube:** [Your YouTube](https://www.youtube.com/@kibradleyphd)
 
 ## 🙏 Acknowledgments
 - **CDC YRBSS Team** for providing this crucial public health data
